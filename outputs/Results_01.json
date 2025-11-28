@@ -1,0 +1,44 @@
+{
+    "phase1": {
+        "cleaned_samples": 476263,
+        "balanced_samples": 761548,
+        "class_weights": [
+            1.0,
+            1.0
+        ]
+    },
+    "phase2": {
+        "model_type": "ImprovedHybridCNNBiLSTMAttention",
+        "loss_function": "WeightedFocalLoss",
+        "optimizer": "Adam"
+    },
+    "phase3": {
+        "temporal_features": 7,
+        "invariance_features": 4,
+        "domain_features": 2,
+        "total_engineered": 13
+    },
+    "phase4": {
+        "metrics": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "auc_roc": 1.0,
+            "detection_rate": 1.0,
+            "fpr": 0.0,
+            "specificity": 1.0
+        },
+        "optimal_threshold": 0.01,
+        "threshold_metrics": {
+            "threshold": 0.01,
+            "detection_rate": 1.0,
+            "fpr": 0.0,
+            "specificity": 1.0,
+            "tp": 95194,
+            "tn": 59,
+            "fp": 0,
+            "fn": 0
+        }
+    }
+}

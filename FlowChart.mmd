@@ -1,0 +1,51 @@
+graph TD
+    A[Raw Network Traffic] --> B[Data Ingestion Layer]
+    B --> C[PCAP/CSV Processing]
+    C --> D[Flow Reconstruction]
+    
+    D --> E[Feature Engineering Layer]
+    E --> F[Statistical Features]
+    E --> G[TLS Entropy Analysis]
+    E --> H[Temporal Invariant Features]
+    
+    F --> I[Feature Fusion]
+    G --> I
+    H --> I
+    
+    I --> J[Model Training Layer]
+    J --> K[Hybrid CNN-LSTM-Attention]
+    J --> L[Multi-Scale Architecture]
+    J --> M[Ensemble Models]
+    
+    K --> N[Advanced Training]
+    L --> N
+    M --> N
+    
+    N --> O[Adversarial Training]
+    N --> P[Hyperparameter Optimization]
+    N --> Q[Cross-Validation]
+    
+    O --> R[Evaluation Layer]
+    P --> R
+    Q --> R
+    
+    R --> S[Metrics Calculation]
+    R --> T[Performance Analysis]
+    R --> U[Model Selection]
+    
+    S --> V[Real-Time API]
+    T --> V
+    U --> V
+    
+    V --> W[Threat Detection]
+    V --> X[Risk Assessment]
+    V --> Y[System Monitoring]
+    
+    W --> Z[Security Alerts]
+    X --> Z
+    Y --> Z
+    
+    Z --> AA[Orchestration Layer]
+    AA --> AB[Complete Workflow]
+    AA --> AC[Service Management]
+    AA --> AD[Configuration Control]
