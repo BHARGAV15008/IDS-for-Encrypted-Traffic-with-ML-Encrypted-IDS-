@@ -1,0 +1,11 @@
+*.csv
+*.log
+01_Data/Scenario B-ARFF
+01_Data/Scenario
+A2-ARFF
+01_Data/Scenario
+A1-ARFF
+01_Data/MachineLearningCVE
+01_Data/TrafficLabelling_
+new/
+References/
