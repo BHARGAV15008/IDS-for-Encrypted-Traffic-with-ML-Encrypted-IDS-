@@ -1,11 +1,47 @@
 *.csv
 *.log
-01_Data/Scenario B-ARFF
-01_Data/Scenario
-A2-ARFF
-01_Data/Scenario
-A1-ARFF
-01_Data/MachineLearningCVE
-01_Data/TrafficLabelling_
+*.arff
+*.tmp
+*.bak
+*.aux
+*.out
+*.txt
+*.md
+*.npz
+*.pcap
+*.pkl
+*.pth
+*.h5
+*.json
+
+# Directories
 new/
 References/
+__pycache__/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+MDs/
+
+# Data directories
+01_Data/Scenario A1-ARFF/
+01_Data/Scenario A2-ARFF/
+01_Data/Scenario B-ARFF/
+01_Data/CSVs/
+01_Data/02_Processed/
+01_Data/03_TimeSeries/
+
+# Model weights and outputs
+03_Models/03_Trained_Weights/
+04_Source_Code/outputs/
+04_Source_Code/comprehensive_evaluation_results/
+04_Source_Code/evaluation_results/
+04_Source_Code/improved_evaluation_results/
+04_Source_Code/professional_evaluation_results/
+04_Source_Code/test_results/
+
+# Environment
+ids_eval_env/
+venv/
+env/
+*.pyc
