@@ -646,7 +646,7 @@ def testCombinedDataset(datasetPath: str = '01_Data/02_Processed/combined_all_sc
     logger.info("DATASET TEST COMPLETED")
     logger.info("=" * 80)
     logger.info(f"\n✓ Dataset is ready for training!")
-    logger.info(f"  Use: python 04_Source_Code/completeWorkflow.py --data \"{datasetPath}\"")
+    logger.info(f"  Use: python 04_Source_Code/run_pipeline.py --data \"{datasetPath}\"")
     
     return True
 

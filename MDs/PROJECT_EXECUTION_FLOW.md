@@ -206,7 +206,7 @@ P22_Encrypted_Traffic_IDS/
 │
 ├── 04_Source_Code/                   # Core Application
 │   ├── main.py                       # Main entry point
-│   ├── completeWorkflow.py           # End-to-end workflow
+│   ├── run_pipeline.py           # End-to-end workflow
 │   ├── orchestrator.py               # Service orchestration
 │   ├── dataCombiner.py               # Dataset combination
 │   ├── timeSeriesConverter.py        # Time series conversion
@@ -643,7 +643,7 @@ PGD Attack:
 
 ```bash
 # Train on time series data
-python 04_Source_Code/completeWorkflow.py \
+python 04_Source_Code/run_pipeline.py \
   --data "01_Data/03_TimeSeries/timeseries_window10.npz" \
   --type timeseries \
   --epochs 100 \
