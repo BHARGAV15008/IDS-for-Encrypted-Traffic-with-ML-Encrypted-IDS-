@@ -1,9 +1,34 @@
+# Files To Ignored
 *.csv
 *.log
+*.arff
+*.model
+
+
+
+# Directories To Be Ignored
 01_Data/Scenario\ B-ARFF/
 01_Data/Scenario\ A1-ARFF/
 01_Data/Scenario\ A2-ARFF/
 01_Data/MachineLearningCVE/
-01_Data/TrafficLabelling_*/
+01_Data/TrafficLabelling*/
+01_Data/CSVs/
 new/
 References/
+temp/
+
+# IDE Specific Files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.qodo/
+
+# Environment Files
+env/
+venv/
+*.env
+.envrc
