@@ -16,6 +16,7 @@
 new/
 References/
 temp/
+MDs/
 
 # IDE Specific Files
 .vscode/
