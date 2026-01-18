@@ -51,8 +51,6 @@ def run(ctx, config, data, classification_type, epochs, output_base_dir):
     """Run the complete IDS pipeline"""
     click.echo("Running the complete IDS pipeline...")
 
-    # Define the path to the run_pipeline.py script
-    pipeline_script = project_root / '04_Source_Code' / 'improvedCompleteWorkflow.py'
 
     if not pipeline_script.exists():
         click.echo(f"Error: Pipeline script not found at {pipeline_script}", err=True)
